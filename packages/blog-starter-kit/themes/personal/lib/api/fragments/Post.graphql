@@ -15,4 +15,8 @@ fragment Post on Post {
 	comments(first: 0) {
 		totalDocuments
 	}
+	tags {
+		name
+		slug
+	}
 }
