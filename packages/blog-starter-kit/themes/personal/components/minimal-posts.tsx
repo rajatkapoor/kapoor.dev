@@ -19,7 +19,7 @@ export const MinimalPosts = ({ posts }: Props) => {
 					}}
 					slug={post.slug}
 					commentCount={post.comments?.totalDocuments}
-					// tags={post.tags}
+					tags={post.tags}
 				/>
 			))}
 		</section>
